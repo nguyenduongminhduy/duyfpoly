@@ -1,0 +1,196 @@
+body{
+    background-color: lightgray;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+header{
+    background-color: #4ebee6;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.col-2{
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-8{
+    flex: 0 0 90.666667%;
+    max-width: 90.666667%;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-2th{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+.signin{
+    float: right;
+    padding-left: 150px;
+}
+.signin a{
+    padding: 30px;
+}
+.card{
+    width: 20%;
+}
+.menu ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+} 
+ul.menu-child{
+    position: absolute;
+    width: 250px;
+    background-color: #4ebee6;
+}
+ul.menu-child li{
+    padding: 5px;
+    float: none;
+    display: none;
+}
+.menu ul li:hover ul.menu-child li{
+    display: block;
+}
+ul.menu-child li a{
+    color: white;
+    padding-left: 0px;
+}
+ul.menu-child li a:hover{
+    color: black;
+    background-color: white;
+}
+a:hover{
+    color: black;
+}
+.name{
+    font-size: 40px;
+}
+table{
+    height: 800px;
+    padding: 50px;
+}
+p{
+    padding: 20px;
+}
+.head{
+    max-width: 70%;
+    background-color: white;
+}
+.image img{
+    width: 500px;
+    height: 500px;
+    padding-left: 100px;
+}
+.image{
+    width: 700px;
+}
+.madein{
+    font-size: 25px;
+}
+.orange{
+    color: orange;
+    font-size: 20px;
+}
+.price{
+    font-size: 25px;
+    color: blue;
+}
+.underline{
+    text-decoration: line-through;
+    color: gray;
+}
+.infor{
+    font-size: 20px;
+    padding: 10px;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.grid__column-2-4{
+    margin-left: 15px;
+    width: 24%;
+    float: right;   
+}
+footer{
+    padding-left: 150px;
+    height: 200px;
+    background-color: #4ebee6;
+}
+.footer{
+    background-color: #4ebee6;
+    max-width: 100%;
+    height: 160px;
+    
+}
+.footer__item-link{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.footer__list{
+    padding-left: 0;
+    list-style: none;
+}
+.footer__item img{
+    width: 20px;
+    vertical-align: middle;
+}
+.footer__item{
+    padding: 2px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.footer_heading{
+    margin-left: 35px;
+}
+h3.footer_heading{
+    margin-top: 10px;
+}
+h3{
+    color: white;
+}
+a.footer__item-link{
+    color: white;
+}
+a.footer__item-link:hover{
+    color: black;
+}
+.menu-chile li a:hover{
+    color: black;
+}
+a{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}

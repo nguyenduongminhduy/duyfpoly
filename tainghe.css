@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+header{
+    background-color: #4ebee6;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.col-2{
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-8{
+    flex: 0 0 90.666667%;
+    max-width: 90.666667%;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-2th{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+.signin{
+    float: right;
+    padding-left: 150px;
+}
+.signin a{
+    padding: 30px;
+}
+.card{
+    width: 20%;
+}
+.menu ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+} 
+ul.menu-child{
+    position: absolute;
+    width: 250px;
+    background-color: #4ebee6;
+}
+ul.menu-child li{
+    padding: 5px;
+    float: none;
+    display: none;
+}
+.menu ul li:hover ul.menu-child li{
+    display: block;
+}
+ul.menu-child li a{
+    color: white;
+    padding-left: 0px;
+}
+ul.menu-child li a:hover{
+    color: black;
+    background-color: white;
+
+}
+a:hover{
+    color: black;
+}
+.col-12 img{
+    height: 400px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.img-banner img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
